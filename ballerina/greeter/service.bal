@@ -1,3 +1,4 @@
+import ballerina/http;
 // Copyright (c) 2023, WSO2 LLC. (https://www.wso2.com/) All Rights Reserved.
 //
 // WSO2 LLC. licenses this file to you under the Apache License,
@@ -15,7 +16,7 @@
 // under the License.
 //
 
-import ballerina/http;
+
 
 # A service representing a network-accessible API
 # bound to port `9090`.
