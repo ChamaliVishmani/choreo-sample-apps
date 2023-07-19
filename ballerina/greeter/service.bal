@@ -32,8 +32,8 @@ service / on new http:Listener(9090) {
         return "Hello, " + name;
     }
 
+    //test
     resource function get hello() returns string {
         return "Hello, World!";
     }
-    test mistake
 }
